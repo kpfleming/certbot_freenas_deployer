@@ -46,24 +46,24 @@ def main(url, tls_verify, user, password, certfile, keyfile, debug, quiet):
     if url is None:
         click.echo('A URL for a FreeNAS system must be provided.')
         click.echo("Run '%s --help' for information on how to use this tool." % (sys.argv[0]))
-        sys.exit(1)
+        sys.exit(2)
 
     if user is None or password is None:
         click.echo('Both a user and its password must be provided.')
         click.echo("Run '%s --help' for information on how to use this tool." % (sys.argv[0]))
-        sys.exit(1)
+        sys.exit(2)
 
     if certfile is not None and keyfile is None:
         click.echo('If a certificate file path is provided, '
                    'the corresponding private key file path must also be provided.')
         click.echo("Run '%s --help' for information on how to use this tool." % (sys.argv[0]))
-        sys.exit(1)
+        sys.exit(2)
 
     if certfile is None and keyfile is not None:
         click.echo('If a private key file path is provided, '
                    'the corresponding certificate file path must also be provided.')
         click.echo("Run '%s --help' for information on how to use this tool." % (sys.argv[0]))
-        sys.exit(1)
+        sys.exit(2)
 
     if certfile is None and keyfile is None:
         if os.environ.get('RENEWED_LINEAGE'):
@@ -74,7 +74,7 @@ def main(url, tls_verify, user, password, certfile, keyfile, debug, quiet):
             click.echo('Automatic certificate and private key file discovery only '
                        'supported when this tool is run as a certbot renewal hook.')
             click.echo("Run '%s --help' for information on how to use this tool." % (sys.argv[0]))
-            sys.exit(1)
+            sys.exit(2)
 
     if debug:
         quiet = False
@@ -164,6 +164,8 @@ def main(url, tls_verify, user, password, certfile, keyfile, debug, quiet):
         # this error is expected since the request restarted the HTTP server
         pass
 
+    sys.exit(0)
+
 
 if __name__ == "__main__":
-    sys.exit(main())  # pragma: no cover
+    main()  # pragma: no cover
