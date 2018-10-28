@@ -100,7 +100,7 @@ def main(url, tls_verify, user, password, certfile, keyfile, debug, quiet):
         active_version = pkg_resources.parse_version(res.json()['fullversion'])
         required_version = pkg_resources.parse_version('FreeNAS-11.1')
         if active_version < required_version:
-            click.echo("FreeNAS version %s does not support the necessary API"
+            click.echo("FreeNAS version %s does not support the necessary API "
                        "operations for this tool; FreeNAS 11.1 or later is required"
                        % (active_version))
             sys.exit(1)
