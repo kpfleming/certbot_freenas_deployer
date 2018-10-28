@@ -21,12 +21,15 @@ setup(
     author="Kevin P. Fleming",
     author_email='kevin+py@km6g.us',
     classifiers=[
-        'Development Status :: 2 - Pre-Alpha',
+        'Development Status :: 5 - Production/Stable',
         'Intended Audience :: Developers',
         'License :: OSI Approved :: Apache Software License',
         'Natural Language :: English',
         'Programming Language :: Python :: 3.5',
         'Programming Language :: Python :: 3.6',
+        'Environment :: Console',
+        'Operating System :: OS Independent',
+        'Topic :: System :: Systems Administration',
     ],
     description="A simple tool to deploy TLS certificates obtained using Certbot to FreeNAS systems.",
     entry_points={
