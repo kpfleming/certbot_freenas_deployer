@@ -7,6 +7,7 @@ import http.client as http_client
 import sys
 import time
 import os
+import pkg_resources
 
 
 class freenas_api_endpoint:
@@ -89,6 +90,27 @@ def main(url, tls_verify, user, password, certfile, keyfile, debug, quiet):
         requests_log = logging.getLogger("requests.packages.urllib3")
         requests_log.setLevel(logging.DEBUG)
         requests_log.propagate = True
+
+    res = ep.request(
+        verb='GET',
+        api='system/version/'
+        )
+
+    if res.status_code == 200:
+        active_version = pkg_resources.parse_version(res.json()['fullversion'])
+        required_version = pkg_resources.parse_version('FreeNAS-11.1')
+        if active_version < required_version:
+            click.echo("FreeNAS version %s does not support the necessary API"
+                       "operations for this tool; FreeNAS 11.1 or later is required"
+                       % (active_version))
+            sys.exit(1)
+        if not quiet:
+            click.echo('Certificate import successful')
+    else:
+        if not quiet:
+            click.echo('Unable to determine FreeNAS version')
+            click.echo(res)
+        sys.exit(1)
 
     certname = "le-%s" % (int(time.time()))
 
