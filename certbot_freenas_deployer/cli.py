@@ -93,7 +93,7 @@ def main(url, tls_verify, user, password, certfile, keyfile, debug, quiet):
 
     res = ep.request(
         verb='GET',
-        api='system/version/'
+        api='version/'
         )
 
     if res.status_code == 200:
