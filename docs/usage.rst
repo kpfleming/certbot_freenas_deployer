@@ -3,7 +3,7 @@ Usage
 =====
 
 **NOTE**: As of FreeNAS 11.1, the API calls needed to install and activate new
-certificates for the FreeNAS GUI are only usable by users with *root* permissions.
+certificates for the FreeNAS GUI are usable only by users with *root* permissions.
 Since the configuration files for Certbot are not protected, the username and
 password you supply to this script will be visible to anyone who can inspect
 the configuration files.
