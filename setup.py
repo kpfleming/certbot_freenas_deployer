@@ -48,7 +48,7 @@ setup(
     test_suite='tests',
     tests_require=test_requirements,
     url='https://github.com/kpfleming/certbot_freenas_deployer',
-    version='1.1.0',
+    version='1.1.1',
     zip_safe=False,
     python_requires='>=3.5',
 )
