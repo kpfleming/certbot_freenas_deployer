@@ -6,6 +6,7 @@ flake8==3.6.0
 tox==3.5.3
 coverage==4.5.1
 Sphinx==1.8.1
+guzzle-sphinx-theme==0.7.11
 twine==1.12.1
 
 pytest==3.9.3
