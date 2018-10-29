@@ -50,4 +50,5 @@ setup(
     url='https://github.com/kpfleming/certbot_freenas_deployer',
     version='1.0.0',
     zip_safe=False,
+    python_requires='>=3.5',
 )
