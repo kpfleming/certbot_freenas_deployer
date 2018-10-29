@@ -83,18 +83,8 @@ To invoke the tool using *runpy*:
 
 .. code-block:: console
 
-    $ python -m certbot_freenas_deployer --url ... --user ... --password ...
-
-If you have multiple Python versions installed on your system, and Python 3.x is
-*not* the default version (the version which is run when you execute 'python'), then
-you will need to ensure that you use Python 3 when you install
-this package. Commonly this version is called 'python3', so the following command can be
-run in your terminal:
-
-.. code-block:: console
-
     $ python3 -m certbot_freenas_deployer --url ... --user ... --password ...
-    
+
 ==============
 Automatic Mode
 ==============
