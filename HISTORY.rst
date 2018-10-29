@@ -2,6 +2,11 @@
 History
 =======
 
+1.1.1 (2018-10-29)
+------------------
+
+* Revert docs to 'Alabaster' theme since 'Guzzle' does not work on ReadTheDocs.
+
 1.1.0 (2018-10-29)
 ------------------
 
