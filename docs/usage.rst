@@ -63,6 +63,38 @@ For manual deployments, if you experience problems during the deployment process
 you can use the \--debug option to display the HTTP requests and responses
 sent and received by the tool.
 
+================
+Invoking the tool
+================
+
+There are two ways to invoke the tool: the installation process (on most operating
+systems) will install a *console script* which can be run directly, and in addition
+the tool can be run using the Python *runpy* module mechanism.
+
+.. highlight:: shell
+
+to invoke the console script:
+
+.. code-block:: console
+
+    $ certbot_freenas_deployer --url ... --user ... --password ...
+
+To invoke the tool using *runpy*:
+
+.. code-block:: console
+
+    $ python -m certbot_freenas_deployer --url ... --user ... --password ...
+
+If you have multiple Python versions installed on your system, and Python 3.x is
+*not* the default version (the version which is run when you execute 'python'), then
+you will need to ensure that you use Python 3 when you install
+this package. Commonly this version is called 'python3', so the following command can be
+run in your terminal:
+
+.. code-block:: console
+
+    $ python3 -m certbot_freenas_deployer --url ... --user ... --password ...
+    
 ==============
 Automatic Mode
 ==============
