@@ -1,6 +1,8 @@
 Certbot FreeNAS Deployer
 ========================
 
+<div style="display: flex; justify-content: space-around">
+<div>
 [![image](https://img.shields.io/pypi/v/certbot_freenas_deployer.svg)](https://pypi.python.org/pypi/certbot_freenas_deployer)
 [![image](https://img.shields.io/travis/kpfleming/certbot_freenas_deployer.svg)](https://travis-ci.org/kpfleming/certbot_freenas_deployer)
 [![Documentation Status](https://readthedocs.org/projects/certbot-freenas-deployer/badge/?version=latest)](https://certbot-freenas-deployer.readthedocs.io/en/latest/?badge=latest)
@@ -8,8 +10,12 @@ Certbot FreeNAS Deployer
 A simple tool to deploy TLS certificates obtained using Certbot to
 FreeNAS systems.
 
-<a href="https://opensource.org" target="_blank"><img align="right" width="150" height="200" src="https://opensource.org/files/OSIApproved.png" alt="Open Source Initiative Approved License logo"></a>
--  Open Source software: Apache Software License 2.0
+Open Source software: Apache Software License 2.0
+</div>
+<div>
+<a href="https://opensource.org" target="_blank"><img width="150" height="200" src="https://opensource.org/files/OSIApproved.png" alt="Open Source Initiative Approved License logo"></a>
+</div>
+</div>
 
 Features
 --------
