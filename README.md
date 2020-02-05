@@ -1,18 +1,14 @@
 Certbot FreeNAS Deployer
 ========================
 
-<div>
-<div>
+<a href="https://opensource.org" target="_blank"><img width="150" height="200" align="left" src="https://opensource.org/files/OSIApproved.png" alt="Open Source Initiative Approved License logo"></a>
 <a href="https://pypi.python.org/pypi/certbot_freenas_deployer" target="_blank"><img src="https://img.shields.io/pypi/v/certbot_freenas_deployer.svg" alt="Package on PyPI"></a>
 <a href="https://travis-ci.org/kpfleming/certbot_freenas_deployer" target="_blank"><img src="https://img.shields.io/travis/kpfleming/certbot_freenas_deployer.svg" alt="Build status on Travis-CI"></a>
 <a href="https://certbot-freenas-deployer.readthedocs.io/en/latest/?badge=latest" target="_blank"><img src="https://readthedocs.org/projects/certbot-freenas-deployer/badge/?version=latest" alt="Documentation on ReadTheDocs"></a>
-<p>A simple tool to deploy TLS certificates obtained using Certbot to FreeNAS systems.</p>
-<p>Open Source software: Apache Software License 2.0</p>
-</div>
-<div style="margin-left: auto; margin-right: 0;">
-<a href="https://opensource.org" target="_blank"><img width="150" height="200" src="https://opensource.org/files/OSIApproved.png" alt="Open Source Initiative Approved License logo"></a>
-</div>
-</div>
+
+A simple tool to deploy TLS certificates obtained using Certbot to FreeNAS systems.
+
+Open Source software: Apache Software License 2.0
 
 Features
 --------
