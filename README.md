@@ -3,12 +3,10 @@ Certbot FreeNAS Deployer
 
 <div style="display: flex; justify-content: space-around">
 <div>
-[![image](https://img.shields.io/pypi/v/certbot_freenas_deployer.svg)](https://pypi.python.org/pypi/certbot_freenas_deployer)
-[![image](https://img.shields.io/travis/kpfleming/certbot_freenas_deployer.svg)](https://travis-ci.org/kpfleming/certbot_freenas_deployer)
-[![Documentation Status](https://readthedocs.org/projects/certbot-freenas-deployer/badge/?version=latest)](https://certbot-freenas-deployer.readthedocs.io/en/latest/?badge=latest)
-
-A simple tool to deploy TLS certificates obtained using Certbot to
-FreeNAS systems.
+<a href="https://pypi.python.org/pypi/certbot_freenas_deployer" target="_blank"><img src="https://img.shields.io/pypi/v/certbot_freenas_deployer.svg" alt="Package on PyPI"></a>
+<a href="https://travis-ci.org/kpfleming/certbot_freenas_deployer" target="_blank"><img src="https://img.shields.io/travis/kpfleming/certbot_freenas_deployer.svg" alt="Build status on Travis-CI"></a>
+<a href="https://certbot-freenas-deployer.readthedocs.io/en/latest/?badge=latest" target="_blank"><img src="https://readthedocs.org/projects/certbot-freenas-deployer/badge/?version=latest" alt="Documentation on ReadTheDocs"></a>
+A simple tool to deploy TLS certificates obtained using Certbot to FreeNAS systems.
 
 Open Source software: Apache Software License 2.0
 </div>
