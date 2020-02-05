@@ -1,7 +1,3 @@
-::: {.highlight}
-shell
-:::
-
 Contributing
 ============
 
