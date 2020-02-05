@@ -1,11 +1,10 @@
-=======
 Credits
 =======
 
 Development Lead
 ----------------
 
-* Kevin P. Fleming <kevin+py@km6g.us>
+-   Kevin P. Fleming \<<kevin+py@km6g.us>\>
 
 Contributors
 ------------
