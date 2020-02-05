@@ -7,8 +7,6 @@ Certbot FreeNAS Deployer
 
 [![Documentation Status](https://readthedocs.org/projects/certbot-freenas-deployer/badge/?version=latest)](https://certbot-freenas-deployer.readthedocs.io/en/latest/?badge=latest)
 
-[![Dependency Updates](https://pyup.io/repos/github/kpfleming/certbot_freenas_deployer/shield.svg)](https://pyup.io/repos/github/kpfleming/certbot_freenas_deployer/)
-
 A simple tool to deploy TLS certificates obtained using Certbot to
 FreeNAS systems.
 
