@@ -20,11 +20,11 @@ Certbot FreeNAS Deployer
 A simple tool to deploy TLS certificates obtained using Certbot to FreeNAS systems.
 
 .. image:: https://opensource.org/files/OSIApproved.png
-        :target: https://opensource.org
-	:align: right
-	:height: 200px
-	:width: 150px
-	:alt: Open Source Initiative Approved License logo
+   :target: https://opensource.org
+   :align: right
+   :height: 200px
+   :width: 150px
+   :alt: Open Source Initiative Approved License logo
 
 * Open Source software: Apache Software License 2.0
 * Documentation: https://certbot-freenas-deployer.rtfd.io.
