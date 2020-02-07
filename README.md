@@ -1,10 +1,10 @@
 Certbot FreeNAS Deployer
 ========================
 
-<a href="https://opensource.org" target="_blank"><img height="150" align="left" src="https://opensource.org/files/OSIApprovedCropped.png" alt="Open Source Initiative Approved License logo"></a>
-<a href="https://pypi.python.org/pypi/certbot_freenas_deployer" target="_blank"><img src="https://img.shields.io/pypi/v/certbot_freenas_deployer.svg" alt="Package on PyPI"></a>
-<a href="https://travis-ci.org/kpfleming/certbot_freenas_deployer" target="_blank"><img src="https://img.shields.io/travis/kpfleming/certbot_freenas_deployer.svg" alt="Build status on Travis-CI"></a>
-<a href="https://certbot-freenas-deployer.readthedocs.io/en/latest/?badge=latest" target="_blank"><img src="https://readthedocs.org/projects/certbot-freenas-deployer/badge/?version=latest" alt="Documentation on ReadTheDocs"></a>
+<a href="https://opensource.org"><img height="150" src="https://opensource.org/files/OSIApprovedCropped.png" alt="Open Source Initiative Approved License logo"></a>
+[![Package on PyPI](https://img.shields.io/pypi/v/certbot_freenas_deployer.svg)](https://pypi.python.org/pypi/certbot_freenas_deployer)
+[![Build status on Travis CI](https://img.shields.io/travis/kpfleming/certbot_freenas_deployer.svg)](https://travis-ci.org/kpfleming/certbot_freenas_deployer)
+[![Documentation on ReadTheDocs](https://readthedocs.org/projects/certbot-freenas-deployer/badge/?version=latest)](https://certbot-freenas-deployer.readthedocs.io/en/latest/?badge=latest)
 
 A simple tool to deploy TLS certificates obtained using Certbot to FreeNAS systems.
 
