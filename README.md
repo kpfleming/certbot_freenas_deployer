@@ -1,7 +1,7 @@
 Certbot FreeNAS Deployer
 ========================
 
-<a href="https://opensource.org"><img height="150" src="https://opensource.org/files/OSIApprovedCropped.png" alt="Open Source Initiative Approved License logo"></a>
+<a href="https://opensource.org"><img height="150" align="left" src="https://opensource.org/files/OSIApprovedCropped.png" alt="Open Source Initiative Approved License logo"></a>
 [![Package on PyPI](https://img.shields.io/pypi/v/certbot_freenas_deployer.svg)](https://pypi.python.org/pypi/certbot_freenas_deployer)
 [![Build status on Travis CI](https://img.shields.io/travis/kpfleming/certbot_freenas_deployer.svg)](https://travis-ci.org/kpfleming/certbot_freenas_deployer)
 [![Documentation on ReadTheDocs](https://readthedocs.org/projects/certbot-freenas-deployer/badge/?version=latest)](https://certbot-freenas-deployer.readthedocs.io/en/latest/?badge=latest)
