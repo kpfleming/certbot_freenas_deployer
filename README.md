@@ -1,5 +1,4 @@
-Certbot FreeNAS Deployer
-========================
+# Certbot FreeNAS Deployer
 
 <a href="https://opensource.org"><img height="150" align="left" src="https://opensource.org/files/OSIApprovedCropped.png" alt="Open Source Initiative Approved License logo"></a>
 [![Package on PyPI](https://img.shields.io/pypi/v/certbot_freenas_deployer.svg)](https://pypi.python.org/pypi/certbot_freenas_deployer)
@@ -10,8 +9,9 @@ A simple tool to deploy TLS certificates obtained using Certbot to FreeNAS syste
 
 Open Source software: Apache Software License 2.0
 
-Features
---------
+## &nbsp;
+
+# Features
 
 This tool is intended to be used as a \"deploy hook\" in Certbot
 configurations, where Certbot is running on a separate system from
@@ -29,8 +29,7 @@ The tool requires (at least) FreeNAS 11.1, which is the version in which
 the GUI certificate update API methods were introduced. It also requires
 Python 3.5 or a later version.
 
-Credits
--------
+# Credits
 
 This tool was inspired by danb35\'s
 [deploy-freenas](https://github.com/danb35/deploy-freenas) script, but
